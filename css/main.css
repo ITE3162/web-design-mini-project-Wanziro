@@ -1,0 +1,430 @@
+body {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 0px;
+  margin: 0px;
+}
+
+.home {
+  background: #080808;
+  width: 100%;
+  height: 100vh;
+}
+
+.home .left {
+  width: 80%;
+  padding: 0px 2.5rem;
+  position: relative;
+  height: 100%;
+}
+
+.home .left .nav ol {
+  margin: 0;
+  padding: 0px;
+}
+
+.home .left .nav ol li {
+  list-style: none;
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.home .left .nav ol li h1 {
+  margin: 0px;
+  padding: 0px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.home .left .nav ol li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home .left .nav ol li a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+.home .left .nav ol .active a {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.home .left .body {
+  text-align: center;
+  width: 70%;
+  margin-top: 5%;
+}
+
+.home .left .body h2 {
+  font-weight: 500;
+}
+
+.home .left .body .container {
+  background-color: rgba(39, 38, 38, 0.3);
+  font-size: 20px;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.home .left .body .container .form {
+  text-align: left;
+}
+
+.home .left .body .container .form input,
+.home .left .body .container .form textarea {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  border: 2px solid #36363663;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.home .left .body .container .form button {
+  padding: 10px 20px;
+  background: goldenrod;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.home .left .body .container2 {
+  background-color: rgba(39, 38, 38, 0.3);
+  font-size: 20px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin: 15px 0px;
+  margin-top: 25px;
+}
+
+.home .left .body .container2 p {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.home .left .body .container2 p a {
+  color: goldenrod;
+}
+
+.home .left .body .skills {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.home .left .body .skills h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 3px;
+}
+
+.home .left .body .skills .skill-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.home .left .body .skills .skill-bar-container {
+  position: relative;
+}
+
+.home .left .body .skills .skill-bar-container .bar {
+  width: 100%;
+  background: rgba(39, 38, 38, 0.3);
+  height: 10px;
+}
+
+.home .left .body .skills .skill-bar-container .bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 40%;
+  background-color: goldenrod;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.home .left .body .skills .skill-bar-container .w-90 {
+  width: 90%;
+}
+
+.home .left .body .skills .skill-bar-container .w-95 {
+  width: 95%;
+}
+
+.home .left .body .skills .skill-bar-container .w-85 {
+  width: 85%;
+}
+
+.home .left .body .skills .skill-bar-container .w-80 {
+  width: 80%;
+}
+
+.home .left .education {
+  text-align: left;
+  width: 70%;
+  margin-top: 5%;
+}
+
+.home .left .education .education-container {
+  background-color: rgba(39, 38, 38, 0.3);
+  font-size: 20px;
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home .left .education .education-container p {
+  margin: 0px;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+
+.home .left .education .education-container p:first-child {
+  font-size: 20px;
+  color: white;
+}
+
+.home .left .education .education-container .year {
+  position: absolute;
+  top: -15px;
+  right: 5%;
+  background: goldenrod;
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.home .left .experience {
+  text-align: left;
+  width: 70%;
+  margin-top: 3%;
+}
+
+.home .left .experience .education-container {
+  background-color: rgba(39, 38, 38, 0.3);
+  font-size: 20px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home .left .experience .education-container p {
+  margin: 0px;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+
+.home .left .experience .education-container p:first-child {
+  font-size: 20px;
+  color: white;
+}
+
+.home .left .experience .education-container .year {
+  position: absolute;
+  top: -20px;
+  right: 5%;
+  background: goldenrod;
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.home .left .projects {
+  text-align: center;
+  width: 70%;
+  margin-top: 5%;
+}
+
+.home .left .projects h2 {
+  font-weight: 500;
+}
+
+.home .left .projects .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home .left .projects .container .project-contents {
+  background-color: rgba(39, 38, 38, 0.3);
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.home .left .projects .container .project-contents:first-child {
+  margin-right: 10px;
+}
+
+.home .left .projects .container .project-contents:last-child {
+  margin-left: 10px;
+}
+
+.home .left .projects .container .project-contents .header {
+  background: black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.home .left .projects .container .project-contents .project-body {
+  padding: 1rem;
+}
+
+.home .left .projects .container .project-contents .project-body img {
+  width: 100%;
+}
+
+.home .left .projects .container .project-contents .project-body .description {
+  font-size: 12px;
+}
+
+.home .left .projects .container2 {
+  background-color: rgba(39, 38, 38, 0.3);
+  font-size: 20px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin: 15px 0px;
+  margin-top: 25px;
+}
+
+.home .left .projects .container2 p {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.home .left .projects .container2 p a {
+  color: goldenrod;
+}
+
+.home .left .footer {
+  position: absolute;
+  background-color: rgba(39, 38, 38, 0.3);
+  width: 85%;
+  text-align: center;
+  bottom: 0;
+}
+
+.home .left .footer p {
+  font-size: 14px;
+}
+
+.home .right {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: goldenrod;
+  background: #363636;
+  height: 100%;
+}
+
+.home .right .socials span {
+  display: block;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+.home .right .socials ul {
+  margin: 0px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.home .right .socials ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.home .right .socials ul li .icon {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 50%;
+  background: #080808;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid #35353598;
+}
+
+.home .right .socials ul li .icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.home .right .profile-container {
+  position: relative;
+}
+
+.home .right .profile-container .profile {
+  position: absolute;
+  right: 20%;
+  top: 20px;
+}
+
+.home .right .profile-container .profile img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 20px solid #080808;
+}
+
+.project {
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.project .left .projects {
+  margin-top: 0px;
+}
+
+.project .left .projects h2 {
+  margin: 0px;
+  margin: 10px 0px;
+}
+
+.project .projects-bg {
+  background: rgba(8, 8, 8, 0.897);
+  height: 100%;
+}
+
+.project .projects-bg .right {
+  background: #36363663;
+}
+
+.project .projects-bg .right .profile-container .profile img {
+  border: 20px solid #36363663;
+}
+/*# sourceMappingURL=main.css.map */
